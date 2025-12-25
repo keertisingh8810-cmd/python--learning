@@ -31,5 +31,25 @@ isGreater(c,d) #short form of below 4 lines
 calculateGmean(c,d)
 
 
+def add(a,b):
+    return a+b
 
+result = add(10,20)
+print("Sum:", result)
+
+def check_even(num):
+    if num % 2 == 0:
+        print("Even")
+    else:
+        print("Odd")
+
+check_even(7)
+
+def factorial(n):
+    fact = 1
+    for i in range(1, n+ 1):
+        fact*= i
+    return fact
+
+print("Factorial:", factorial(5))
 
