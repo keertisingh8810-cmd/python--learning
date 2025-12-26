@@ -28,3 +28,19 @@ lst= [ i*i for i in range(10)]
 print(lst)
 lst = [ i*i for i in range(10) if i%2==0]
 print(lst)
+
+
+marks= [70,80,65,90]
+print(marks)
+print("First marks:", marks[0])
+print("Total subjects:", len(marks))
+
+marks.append(85)
+print("After append:", marks)
+
+marks.remove(65)
+print("After remove:", marks)
+
+total = sum(marks)
+average = total / len(marks)
+print("Average marks:", average)
